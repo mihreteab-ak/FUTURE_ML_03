@@ -2,7 +2,7 @@
 
 # Resume Screening & Candidate Ranking System
 
-## 📌 Project Overview
+## Project Overview
 Hiring teams often receive hundreds of resumes for a single job role, making manual screening slow, inconsistent, and error-prone.  
 This project implements a **Machine Learning–based resume screening system** that automatically analyzes resumes, compares them with a job description, and ranks candidates based on role fit.
 
@@ -10,7 +10,7 @@ The system is designed as a **decision-support tool** to help recruiters priorit
 
 ---
 
-## 🎯 Objectives
+## Objectives
 The system aims to:
 - Process unstructured resume text data
 - Extract relevant skills using NLP techniques
@@ -20,7 +20,7 @@ The system aims to:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python**
 - **Pandas & NumPy** – data handling
 - **BeautifulSoup** – HTML cleaning
@@ -33,7 +33,7 @@ The system aims to:
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Input data is provided as a CSV file containing:
   - `ID`: unique candidate identifier
   - Resume text (HTML or plain text)
@@ -41,7 +41,7 @@ The system aims to:
 
 ---
 
-## ⚙️ System Workflow
+## System Workflow
 1. **Data Cleaning**
    - HTML tags and noise are removed from resume text
    - Text is normalized for consistent processing
@@ -65,6 +65,6 @@ The system aims to:
 
 ---
 
-## 📊 Scoring Formula
+## Scoring Formula
 The final score is calculated as:
 
